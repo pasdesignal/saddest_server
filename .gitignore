@@ -1,1 +1,2 @@
 .DS_Store
+./scenarios/packer/variables*
