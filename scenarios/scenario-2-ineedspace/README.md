@@ -1,14 +1,14 @@
-# Scenario 1. "Saint John": what is writing to this log file?
+# Scenario 2. "justneedspace": dude, where did I park my disk?
 
 ## Description
 
-A developer created a testing program that is continuously writing to a log file <i>/var/log/bad.log</i> and filling up disk. You can check for example with <kbd>tail -f /var/log/bad.log</kbd>.<br>
-This program is no longer needed. Find it and terminate it.
+A custom service is trying to start but fails with error "not enough disk". 
+Start the service sucessfully.
 
 ## Test
 
-The log file hasn't changed in the last 6 seconds:
-<kbd>find /var/log/bad.log -mmin -0.1</kbd> (You don't need to know the details of this command).
+The systemd service justneedspace.service starts sucessfully:
+systemctl start justneedspace
 
 ## Clues
 
