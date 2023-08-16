@@ -21,5 +21,5 @@ variable "vpc_id" {
 # change to your subnet
 variable "subnet_id" {
   type    = string
-  default = "subnet-"
+  default = "subnet-8c4b9ee8"
 }
