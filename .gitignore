@@ -1,2 +1,2 @@
 .DS_Store
-./scenarios/scenario-2-ineedspace/packer/variables*
+scenarios/scenario-2-ineedspace/packer/variables*
